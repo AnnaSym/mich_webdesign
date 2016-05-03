@@ -1,4 +1,5 @@
 *{box-sizing: border-box;}
+*{position:relative;}
 body{margin: 2%; padding: 1%;}
 header{background:#ccc url(../images/flywheel.jpg) no-repeat;
 background-size: cover;
@@ -34,11 +35,10 @@ nav a.active {background: rgba(236, 240, 241, 1);
 text-transform: uppercase;
 font-weight: bold;
 color:#369;
-/*text-decoration: underline;*/
- 
+
 }
 
-img { display:block;  width:150px; height: auto; margin:30px auto; border: 3px solid #444;}
+img {display:block;  width:90%; height: auto; margin:0 auto; border: 3px dotted #444;}
 .right{width: 75%;
 float: right;
 padding: 15px;
