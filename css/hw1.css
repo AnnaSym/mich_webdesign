@@ -32,7 +32,7 @@ nav a {
 }
 nav a.active {background: rgba(236, 240, 241, 1);
 text-transform: uppercase;
-text-weight: bold;
+font-weight: bold;
 color:#369;
 /*text-decoration: underline;*/
  
